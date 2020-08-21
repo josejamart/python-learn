@@ -1,7 +1,7 @@
 def BinarySearch(value, list):
     start = 0
     end = len(list)
-    while start < (end -1):
+    while start < (end - 1):
         print(f"s: {start} e:{end}")
         middle = int(((end - start) / 2) + start)
         if value == list[middle]:
@@ -12,4 +12,3 @@ def BinarySearch(value, list):
         else:
             start = middle
     return -1
-

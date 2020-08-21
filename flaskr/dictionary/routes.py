@@ -1,5 +1,6 @@
 from flaskr import app
 
-@app.route('/')
+
+@app.route("/")
 def searchWord():
-    return 'Hello world!'
+    return "Hello world!"
